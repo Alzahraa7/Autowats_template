@@ -13,7 +13,7 @@
 .backgroundDiv {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 130vh;
   left: 0px;
   top: 0px;
   background: linear-gradient(98.24deg, #243256 13.38%, #3a234e 63.38%);
@@ -21,14 +21,14 @@
 .backgroundDiv .networkBackgroundImg {
   position: absolute;
   width: 55%;
-  height: 50%;
+  height: 63%;
   left: 27%;
-  bottom: 12%;
+  bottom: 0%;
   background: url(../assets/network\ 2.png);
 }
 .backgroundDiv .parDiv1 {
   width: fit-content;
-  margin: 15% 15% 0% 20%;
+  margin: 19% 15% 0% 20%;
   font-family: "Metropolis";
   font-style: normal;
   font-weight: 700;
@@ -50,6 +50,7 @@
   color: #efefef;
 }
 .backgroundDiv .btnGetStarted {
+  z-index: 1;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -67,6 +68,7 @@
 }
 .backgroundDiv .btnRegNow {
   display: flex;
+  z-index: 1;
   flex-direction: row;
   align-items: center;
   padding: 10px 20px;
