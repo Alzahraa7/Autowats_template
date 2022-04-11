@@ -1,8 +1,104 @@
-.navDiv{
-    background-color: transparent;
-    .imgLogoNav {
-      width: 195px;
-      height: 36px;
-      margin-left: 89px;
-    }
+@font-face {
+  font-family: Metropolis;
+  src: url(../assets/metropolis.regular.otf);
+}
+@font-face {
+  font-family: Inter;
+  src: url(../assets/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: Metrophobic;
+    src: url(../assets/Metrophobic.otf);
+  }
+* {
+  font-family: "Metropolis";
+  box-sizing: border-box;
+}
+.navDiv {
+  position: absolute;
+  height: 74px;
+  left: 0px;
+  top: 0.87px;
+  border: 1px solid #cccccc;
+  background-color: transparent;
+  .imgLogoNav {
+    width: 70%;
+    height: 36px;
+    margin-left: 89px;
+  }
+  li {
+    list-style-type: none;
+  }
+  .vertLine {
+    width: 56px;
+    height: 0px;
+    border: 1px solid #cccccc;
+    transform: rotate(90deg);
+  }
+  .navOptions {
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-feature-settings: "salt" on, "liga" off;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+  .btnLoginNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    background: #ffffff;
+    border-radius: 6px;
+    margin-right: 14px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    font-feature-settings: "salt" on, "liga" off;
+
+    color: #23d4ce;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+  .btnSignNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    background: #23d4ce;
+    border-radius: 6px;
+    position: static;
+    left: 21.98%;
+    right: 21.98%;
+    top: 25%;
+    bottom: 25%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    font-feature-settings: "salt" on, "liga" off;
+    color: #ffffff;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
 }
