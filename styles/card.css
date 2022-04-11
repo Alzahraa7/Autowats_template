@@ -1,0 +1,25 @@
+.cardDiv {
+  margin: 50px 150px 0px;
+}
+
+.titleCard {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 20px;
+  text-align: justify;
+  color: #333333;
+}
+
+.parCard {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  text-align: right;
+  color: #556575;
+}
+
+/*# sourceMappingURL=card.css.map */
