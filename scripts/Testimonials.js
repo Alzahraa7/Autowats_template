@@ -8,8 +8,8 @@ let users=[
     {
         id:2,
         Name:'John',
-        Review:'This service is good.',
-        Rate:4
+        Review:'It is okay.',
+        Rate:3
     },
     {
         id:3,
@@ -27,7 +27,7 @@ let users=[
         id:5,
         Name:'Ali',
         Review:'ammm, not good not bad.',
-        Rate:3
+        Rate:2
     },
     {
         id:6,

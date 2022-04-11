@@ -25,6 +25,7 @@
   left: 27%;
   bottom: 0%;
   background: url(../assets/network\ 2.png);
+  background-repeat: no-repeat;
 }
 .backgroundDiv .parDiv1 {
   width: fit-content;
