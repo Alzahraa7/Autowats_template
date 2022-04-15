@@ -25,28 +25,28 @@
   left: 27%;
   bottom: 0%;
   background: url(../assets/network\ 2.png);
-  background-repeat: no-repeat;
 }
 .backgroundDiv .parDiv1 {
-  width: fit-content;
   margin: 19% 15% 0% 20%;
   font-family: "Metropolis";
   font-style: normal;
   font-weight: 700;
-  font-size: 48.83px;
-  line-height: 62px;
+  font-size: clamp(1em, 3.5vw, 3em);
+  line-height: 10vh;
   font-feature-settings: "salt" on, "liga" off;
   color: #ffffff;
+  align-items: center;
+  display: block;
+  text-align: center;
 }
 .backgroundDiv .parDiv2 {
-  width: 62%;
   margin: 1% 22%;
   font-family: "Metrophobic";
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 34px;
-  text-align: justify;
+  font-size: clamp(0.9em, 2vw, 1.5em);
+  line-height: 7vh;
+  text-align: center;
   font-feature-settings: "salt" on, "liga" off;
   color: #efefef;
 }
@@ -66,8 +66,10 @@
   text-align: center;
   font-feature-settings: "salt" on, "liga" off;
   color: #ffffff;
+  width: fit-content;
 }
 .backgroundDiv .btnRegNow {
+  width: fit-content;
   display: flex;
   z-index: 1;
   flex-direction: row;
